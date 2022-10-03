@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?><books><book><author>Gambardella, Matthew</author><description>XML Developer's Guide</description><genre>Computer</genre><id>bk101</id><price>44.95</price><publish_date>2000-10-01T00:00:00+05:30</publish_date><title>An in-depth look at creating applications
+			with XML.
+		</title></book><book><author>Ralls, Kim</author><description>Midnight Rain</description><genre>Fantasy</genre><id>bk102</id><price>5.95</price><publish_date>2000-12-16T00:00:00+05:30</publish_date><title>A former architect battles corporate zombies,
+			an evil
+			sorceress, and her own childhood to become queen
+			of the world.
+		</title></book><book><author>Corets, Eva</author><description>Maeve Ascendant</description><genre>Fantasy</genre><id>bk103</id><price>5.95</price><publish_date>2000-11-17T00:00:00+05:30</publish_date><title>After the collapse of a nanotechnology
+			society in England,
+			the young survivors lay the
+			foundation for a new society.
+		</title></book><book><author>Corets, Eva</author><description>Oberon's Legacy</description><genre>Fantasy</genre><id>bk104</id><price>5.95</price><publish_date>2001-03-10T00:00:00+05:30</publish_date><title>In post-apocalypse England, the mysterious
+			agent known
+			only as Oberon helps to create a new life
+			for the inhabitants of
+			London. Sequel to Maeve
+			Ascendant.
+		</title></book><book><author>Corets, Eva</author><description>The Sundered Grail</description><genre>Fantasy</genre><id>bk105</id><price>5.95</price><publish_date>2001-09-10T00:00:00+05:30</publish_date><title>The two daughters of Maeve, half-sisters,
+			battle one
+			another for control of England. Sequel to
+			Oberon's Legacy.
+		</title></book><book><author>Randall, Cynthia</author><description>Lover Birds</description><genre>Romance</genre><id>bk106</id><price>4.95</price><publish_date>2000-09-02T00:00:00+05:30</publish_date><title>When Carla meets Paul at an ornithology
+			conference,
+			tempers fly as feathers get ruffled.
+		</title></book><book><author>Thurman, Paula</author><description>Splish Splash</description><genre>Romance</genre><id>bk107</id><price>4.95</price><publish_date>2000-11-02T00:00:00+05:30</publish_date><title>A deep sea diver finds true love twenty
+			thousand leagues
+			beneath the sea.
+		</title></book><book><author>Knorr, Stefan</author><description>Creepy Crawlies</description><genre>Horror</genre><id>bk108</id><price>4.95</price><publish_date>2000-12-06T00:00:00+05:30</publish_date><title>An anthology of horror stories about roaches,
+			centipedes,
+			scorpions and other insects.
+		</title></book><book><author>Kress, Peter</author><description>Paradox Lost</description><genre>Science Fiction</genre><id>bk109</id><price>6.95</price><publish_date>2000-11-02T00:00:00+05:30</publish_date><title>After an inadvertant trip through a Heisenberg
+			Uncertainty Device, James Salway discovers the problems
+			of being
+			quantum.
+		</title></book><book><author>O'Brien, Tim</author><description>Microsoft .NET: The Programming Bible</description><genre>Computer</genre><id>bk110</id><price>36.95</price><publish_date>2000-12-09T00:00:00+05:30</publish_date><title>Microsoft's .NET initiative is explored in
+			detail in this
+			deep programmer's reference.
+		</title></book><book><author>O'Brien, Tim</author><description>MSXML3: A Comprehensive Guide</description><genre>Computer</genre><id>bk111</id><price>36.95</price><publish_date>2000-12-01T00:00:00+05:30</publish_date><title>The Microsoft MSXML3 parser is covered in
+			detail, with
+			attention to XML DOM interfaces, XSLT processing,
+			SAX and more.
+		</title></book><book><author>Galos, Mike</author><description>Visual Studio 7: A Comprehensive Guide</description><genre>Computer</genre><id>bk112</id><price>49.95</price><publish_date>2001-04-16T00:00:00+05:30</publish_date><title>Microsoft Visual Studio 7 is explored in depth,
+			looking at
+			how Visual Basic, Visual C++, C#, and ASP+ are
+			integrated into a
+			comprehensive development
+			environment.
+		</title></book></books>
