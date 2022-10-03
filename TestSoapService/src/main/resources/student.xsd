@@ -1,0 +1,86 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.soapTest.org/student"
+	xmlns:tns="http://www.soapTest.org/student"
+	elementFormDefault="qualified">
+
+	<xs:complexType name="callStatus">
+		<xs:sequence>
+			<xs:element name="status" type="xs:string" />
+			<xs:element name="message" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="student">
+		<xs:sequence>
+			<xs:element name="studentId" type="xs:long" />
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="age" type="xs:long" />
+			<xs:element name="marks" type="xs:long" />
+			<xs:element name="gender" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="addStudentRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="studentData" type="tns:student" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="addStudentResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="callStatus" type="tns:callStatus" />
+				<xs:element name="studentData" type="tns:student" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getStudentByIdRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="studentId" type="xs:long" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getStudentResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="studentData" type="tns:student" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="updateStudentRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="studentData" type="tns:student" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="updateStudentResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="callStatus" type="tns:callStatus" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="deleteStudentRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="studentId" type="xs:long" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="deleteStudentResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="callStatus" type="tns:callStatus" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
